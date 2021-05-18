@@ -21,9 +21,9 @@ The DIST_ID can be found inside utils/district_mapping.csv
 A district might have too many centers that are far away. So filtering with respect to pincodes would be better.
 Provide a list of pincodes nearer to you in PIN_CODE_LIST. Get it from Cowin website.
 """
-DIST_ID = 457  # Cuttack
+DIST_ID = 149  # NewDelhi
 PIN_CODE_LIST = []
-PIN_CODE_LIST = [753008, 753001, 753007, 753014]
+PIN_CODE_LIST = [110025]
 
 
 SEP = "\t"
