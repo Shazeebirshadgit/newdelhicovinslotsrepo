@@ -9,7 +9,7 @@ except:
 TELEGRAM_ROOT = 'https://api.telegram.org/bot'
 TELEGRAM_END_POINT = '/sendMessage'
 try:
-    BOT_TOKEN = os.environ["BOT_TOKEN"]
+    BOT_TOKEN = os.environ["1875792888:AAH1DzFAwjiy2wg1mE_wao7ICo1gYNwmLvM"]
     CHAT_ID = os.environ["CHAT_ID"]
 except:
     sys.exit("BOT_TOKEN or CHAT_ID missing in ENV.")
